@@ -4,7 +4,7 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppWanandroidCompose">
+        android:theme="@style/Theme.WanandroidComposeApp">
         <activity
             android:name=".WanAndroidMainActivity"
             android:exported="true"

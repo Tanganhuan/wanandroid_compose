@@ -12,7 +12,7 @@
 <!--        <item name="android:windowSplashScreenBrandingImage">@drawable/jetpack_compose_splash</item>-->
 
         <!-- 闪屏结束后跳转到的应用主主题 -->
-        <item name="postSplashScreenTheme">@style/Theme.AppWanandroidCompose</item>
+        <item name="postSplashScreenTheme">@style/Theme.WanandroidComposeApp</item>
         <item name="android:windowSplashScreenAnimationDuration">800</item>
     </style>
 </resources>

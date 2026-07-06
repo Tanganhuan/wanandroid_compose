@@ -66,7 +66,7 @@ internal fun navigationData(onNavigate: (NavKey) -> Unit): List<NavigationItemDa
             }
         ),
         NavigationItemData(
-            name = BaseApplication.Instance.getString(com.go.common.R.string.navigate),
+            name = BaseApplication.Instance.getString(com.go.common.R.string.android_navigate),
             icon = R.drawable.navigation,
             onClick = {
                 onNavigate(AndroidNavigateScreenKey)

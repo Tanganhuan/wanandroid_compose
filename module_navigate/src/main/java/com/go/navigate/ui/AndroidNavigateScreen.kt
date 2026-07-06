@@ -37,7 +37,7 @@ fun AndroidNavigateScreen(navigator: INavigator) {
         navigator.navigate(WebViewNavKey.create(url = url))
     }
     Column(modifier = Modifier.fillMaxSize()) {
-        AppTopBackBox(title = stringResource(com.go.common.R.string.navigate)) {
+        AppTopBackBox(title = stringResource(com.go.common.R.string.android_navigate)) {
             navigator.goBack()
         }
         ListUiStateWidget(

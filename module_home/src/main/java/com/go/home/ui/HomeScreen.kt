@@ -65,6 +65,7 @@ import com.go.navigate.nav.SearchScreenKey
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
+import kotlin.time.Duration.Companion.milliseconds
 
 private const val TAG = "HomeScreenTAG"
 
@@ -356,7 +357,7 @@ private fun BannerBrowseCarousel(
 
     LaunchedEffect(banner) {
         while (isActive) {
-            delay(8000)
+            delay(8000.milliseconds)
             if (rememberCarouselState.isScrollInProgress) {
                 continue
             }

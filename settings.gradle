@@ -33,7 +33,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AppWanandroidCompose"
+rootProject.name = "WanandroidComposeApp"
 include ':app'
 include ':app_wanandroid'
 include ':common'

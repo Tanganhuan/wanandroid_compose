@@ -5,7 +5,7 @@ plugins {
 apply from: "../build_module.gradle"
 
 android {
-    namespace 'com.wanandroid.appcompose'
+    namespace 'com.wanandroid.composeapp'
     defaultConfig {
         targetSdk libs.versions.targetSdk.get().toInteger()
         versionCode libs.versions.appVersionCode.get().toInteger()
