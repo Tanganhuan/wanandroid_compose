@@ -12,19 +12,25 @@
 
 ## 闪屏页
 
-![splash](./images/splash.jpg)
+<img src="./images/splash.jpg" width="150">
+
+
 
 ## 欢迎页
 
-## 
 
-![Guide11](./images/Guide11.jpg)
 
-![Guide22](./images/Guide22.jpg)
+| <img src="./images/Guide11.jpg" width="150"> | <img src="./images/Guide22.jpg" width="150"> |
+| :------------------------------------------: | :------------------------------------------: |
+| <img src="./images/Guide33.jpg" width="150"> | <img src="./images/Guide44.jpg" width="150"> |
 
-![Guide33](./images/Guide33.jpg)
 
-![Guide44](./images/Guide44.jpg)
+
+
+
+
+
+
 
 ## 首页
 
@@ -38,15 +44,14 @@
 
 文章列表，都可以长按弹出菜单，文章可以收藏/取消收藏
 
-![home](./images/home.jpg)
-
-![home_long_press](./images/home_long_press.jpg)
+<img src="./images/home.jpg" width="150">
+<img src="./images/home_long_press.jpg" width="150">
 
 ### 文章详情
 
 文章列表都跳转到网页加载
 
-![webview_questions_and_answers](./images/webview_questions_and_answers.jpg)
+<img src="./images/webview_questions_and_answers.jpg" width="150">
 
 ### 首页搜索
 
@@ -58,9 +63,12 @@
 
 记录历史搜索
 
-![home_search](./images/home_search.jpg)
+| <img src="./images/home_search.jpg" width="150"> | <img src="./images/home_search_result.jpg" width="150"> |
+| :----------------------------------------------: | :-----------------------------------------------------: |
 
-![home_search_result](./images/home_search_result.jpg)
+
+
+
 
 ### 首页导航
 
@@ -68,29 +76,29 @@
 
 鸿蒙开发相关资源
 
-![Harmony_OS](./images/Harmony_OS.jpg)
+<img src="./images/Harmony_OS.jpg" width="150">
 
 #### 路线
 
 这是一个跳转的网页，安卓开发多个方向的学习路线。
 
-![route](./images/route.jpg)
+!<img src="./images/route.jpg" width="150">
 
 #### 问答
 
 问答列表
 
-![questions_and_answers_list](./images/questions_and_answers_list.jpg)
+<img src="./images/questions_and_answers_list.jpg" width="150">
 
 #### 教程
 
 相关教程，现有“C语言入门教程”，“HTML教程”，“SSH教程”，“Bash脚本教程”，“WebAPI教程”，“JavaScript教程”
 
-![course](./images/course.jpg)
+<img src="./images/course.jpg" width="150">
 
 #### 体系
 
-![system](./images/system.jpg)
+<img src="./images/system.jpg" width="150">
 
 #### 工具
 
@@ -176,7 +184,7 @@ https安全检测
 
 支持markdown，可以用来临时记录一些笔记。
 
-![tool](./images/tool.jpg)
+<img src="./images/tool.jpg" width="150">
 
 
 
@@ -184,45 +192,45 @@ https安全检测
 
 排行榜点击用户名，可以模糊搜索用户发表的文章
 
-![ranking_list](./images/ranking_list.jpg)
+<img src="./images/ranking_list.jpg" width="150">
 
 #### 安卓导航
 
 安卓一些相关网站导航
 
-![android_navigate](./images/android_navigate.jpg)
+<img src="./images/android_navigate.jpg" width="150">
 
 ## 广场
 
-![square](./images/square.jpg)
+<img src="./images/square.jpg" width="150">
 
 ## 项目
 
-![project](./images/project.jpg)
+<img src="./images/project.jpg" width="150">
 
 ## 公众号
 
-![wechat](./images/wechat.jpg)
+<img src="./images/wechat.jpg" width="150">
 
 ## 我
 
 ### 登录/退出
 
-![mine_no_login](./images/mine_no_login.jpg)
+<img src="./images/mine_no_login.jpg" width="150">
 
-![mine_login](./images/mine_login.jpg)
+<img src="./images/mine_login.jpg" width="150">
 
 ### 我的收藏
 
-![my_favorite](./images/my_favorite.jpg)
+<img src="./images/my_favorite.jpg" width="150">
 
 ### 设置
 
-![setting](./images/setting.jpg)
+<img src="./images/setting.jpg" width="150">
 
 #### 深/浅色模式切换
 
-![setting_dark_light](./images/setting_dark_light.jpg)
+<img src="./images/setting_dark_light.jpg" width="150">
 
 #### 主题色设置
 
@@ -230,4 +238,4 @@ https安全检测
 
 状态栏是否跟随主题色
 
-![setting_theme](./images/setting_theme.jpg)
+<img src="./images/setting_theme.jpg" width="150">
