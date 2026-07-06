@@ -1,0 +1,16 @@
+plugins {
+    alias(libs.plugins.android.library)
+}
+
+apply from: "../build_module.gradle"
+
+android {
+    namespace 'com.go.project'
+}
+
+dependencies {
+
+    implementation(project(":common"))
+    implementation(project(":module_navigate"))
+    implementation(project(":module_mine"))
+}

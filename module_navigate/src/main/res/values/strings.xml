@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hot_search">热门搜索</string>
+    <string name="historical_search">历史搜索</string>
+    <string name="rank">排名：%1$s</string>
+    <string name="coin">积分：%1$d</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- 设置闪屏页的背景颜色 -->
+        <item name="android:windowSplashScreenBackground">#ecf1f4</item>
+
+        <!-- 设置中间的图标（支持静态图片或动画矢量图） -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_animated</item>
+
+        <!-- 设置底部的品牌图（可选，建议宽高比 4:1） -->
+<!--        <item name="android:windowSplashScreenBrandingImage">@drawable/jetpack_compose_splash</item>-->
+
+        <!-- 闪屏结束后跳转到的应用主主题 -->
+        <item name="postSplashScreenTheme">@style/Theme.AppWanandroidCompose</item>
+        <item name="android:windowSplashScreenAnimationDuration">800</item>
+    </style>
+</resources>

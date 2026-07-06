@@ -1,0 +1,20 @@
+plugins {
+    alias(libs.plugins.android.library)
+}
+
+apply from: "../build_module.gradle"
+
+android {
+    namespace 'com.go.wanandroid'
+}
+
+dependencies {
+
+    implementation(project(":common"))
+    implementation(project(":module_home"))
+    implementation(project(":module_square"))
+    implementation(project(":module_project"))
+    implementation(project(":module_navigate"))
+    implementation(project(":module_mine"))
+    implementation(project(":module_wechat"))
+}

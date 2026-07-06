@@ -1,0 +1,152 @@
+plugins {
+    alias(libs.plugins.android.library)
+}
+
+apply from: "../build_module.gradle"
+
+android {
+    namespace 'com.go.common'
+}
+
+dependencies {
+
+    api libs.androidx.core.ktx
+    api libs.androidx.appcompat
+    api libs.androidx.webkit
+    api libs.material
+    api libs.androidx.startup.runtime
+    api libs.kotlinx.collections.immutable
+    //compose 依赖
+    api platform(libs.androidx.compose.bom)
+
+    api libs.androidx.activity.compose
+    api libs.androidx.compose.runtime
+    api libs.androidx.compose.ui
+    api libs.androidx.compose.ui.graphics
+    api libs.androidx.compose.ui.tooling.preview
+    api libs.androidx.constraintlayout.compose
+//    api libs.androidx.compose.material.icons.extended
+
+    api libs.androidx.ui.tooling.preview
+    debugApi libs.androidx.ui.tooling
+
+    api libs.androidx.lifecycle.runtime.ktx
+    api libs.androidx.compose.material3.adaptive.navigation.suite
+
+    //okhttp依赖
+    api platform(libs.okhttp.bom)
+    api libs.okhttp
+    api libs.okhttp.logging.interceptor
+    api libs.franmontiel.persistentcookiejar
+
+    //图片加载库
+    api libs.coil.compose
+    api libs.coil.network.okhttp
+    //大图处理方案
+    api libs.subsampling.scale.image.view.androidx
+
+    //moshi 序列化
+    api libs.squareup.moshi.moshi
+    api libs.squareup.moshi.kotlin
+    ksp libs.squareup.moshi.kotlin.codegen
+
+    //retrofit2
+    api libs.squareup.retrofit
+    api libs.squareup.moshi.adapters
+    api libs.retrofit.converter.moshi
+    api libs.sharp.retrofit
+
+    //lifecycle viewModel
+    // ViewModel
+    // Lifecycles only (without ViewModel or LiveData)
+    api libs.androidx.lifecycle.runtime
+    api libs.androidx.lifecycle.viewmodel
+    api libs.androidx.lifecycle.viewmodel.ktx
+    // ViewModel utilities for Compose
+    api libs.androidx.lifecycle.viewmodel.compose
+    // LiveData
+    api libs.androidx.lifecycle.livedata
+    api libs.androidx.lifecycle.livedata.ktx
+    // Lifecycle utilities for Compose
+    api libs.androidx.lifecycle.runtime.compose
+
+    // Saved state module for ViewModel
+    api libs.androidx.lifecycle.viewmodel.savedstate
+
+    // Annotation processor
+    //kapt libs.androidx.lifecycle.compiler
+    ksp libs.androidx.lifecycle.compiler
+    // alternately - if using Java8, use the following instead of lifecycle-compiler
+    api libs.androidx.lifecycle.common.java8
+
+    // optional - helpers for implementing LifecycleOwner in a Service
+    api libs.androidx.lifecycle.service
+
+    // optional - ProcessLifecycleOwner provides a lifecycle for the whole application process
+    api libs.androidx.lifecycle.process
+
+    // optional - ReactiveStreams support for LiveData
+    api libs.androidx.lifecycle.reactivestreams.ktx
+
+    // optional - Test helpers for LiveData
+    testImplementation libs.androidx.core.testing
+
+    // optional - Test helpers for Lifecycle runtime
+    testImplementation libs.androidx.lifecycle.runtime.testing
+
+
+    api libs.androidx.paging.common
+    // Jetpack Compose integration
+    api libs.androidx.paging.compose
+
+//    //navigation
+//    // Jetpack Compose Integration
+//    api libs.androidx.navigation.compose
+//
+//    // Views/Fragments Integration
+//    api libs.androidx.navigation.fragment
+//    api libs.androidx.navigation.ui
+//
+//    // Feature module support for Fragments
+//    api libs.androidx.navigation.dynamic.features.fragment
+//
+//    // Testing Navigation
+//    androidTestImplementation libs.androidx.navigation.testing
+
+    api libs.androidx.navigation3.runtime
+    api libs.androidx.navigation3.ui
+    api libs.androidx.lifecycle.viewmodel.navigation3
+    api libs.androidx.material3.adaptive.navigation3
+    api libs.kotlinx.serialization.core
+    api libs.kotlinx.serialization.json
+
+    // JSON serialization library, works with the Kotlin serialization plugin.
+    //api "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+
+    //【处理单dex过大处理】
+    implementation libs.androidx.multidex
+
+    // Preferences DataStore (SharedPreferences like APIs)
+    api libs.androidx.datastore.preferences
+    api libs.androidx.datastore.preferences.core
+    // Typed DataStore for custom data objects (for example, using Proto or JSON).
+    api libs.androidx.datastore
+    api libs.androidx.datastore.core
+
+    api libs.androidx.core.splashscreen
+    //【utils】
+    api(libs.com.blankj.utilcodex) {
+        exclude group: 'org.jetbrains.kotlin', module: 'kotlin-android-extensions-runtime'
+    }
+
+    //权限处理
+    api libs.google.accompanist.permissions
+
+    implementation libs.tencent.crashreport.bugly
+    //性能优化
+    //内存泄露
+    debugImplementation libs.leakcanary.android
+
+    api libs.skydoves.colorpicker.compose
+    api libs.zoomimage.view.coil3
+}

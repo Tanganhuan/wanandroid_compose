@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -7,6 +8,12 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://jitpack.io' }
+
         mavenCentral()
         gradlePluginPortal()
     }
@@ -14,9 +21,13 @@ pluginManagement {
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://jitpack.io' }
         google()
         mavenCentral()
     }
@@ -24,3 +35,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "AppWanandroidCompose"
 include ':app'
+include ':app_wanandroid'
+include ':common'
+include ':module_mine'
+include ':module_home'
+include ':module_square'
+include ':module_project'
+include ':module_navigate'
+include ':module_wechat'

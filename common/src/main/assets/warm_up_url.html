@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!--    file:///android_asset/index.html-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加载中...</title>
+    <style>
+        /* 全局样式重置与全屏居中布局 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa; /* 柔和的浅灰背景 */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* 圆形加载进度条容器 */
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 5px solid #e9ecef; /* 浅灰色的背景圆环 */
+            border-top: 5px solid #4dabf7; /* 蓝色的动态旋转部分 */
+            border-radius: 50%; /* 强制变为正圆形 */
+            /* 核心：通过 box-shadow 实现圆形模糊发光效果 */
+            box-shadow: 0 0 20px rgba(77, 171, 247, 0.5);
+            /* 执行旋转动画：2秒转一圈，匀速，无限循环 */
+            animation: spin 1.2s linear infinite;
+        }
+
+        /* 下方的文字样式 */
+        .loading-text {
+            margin-top: 25px;
+            color: #868e96;
+            font-size: 16px;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+
+        /* 定义旋转动画的关键帧 */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 模糊圆形加载进度条 -->
+<div class="spinner"></div>
+
+<!-- 加载文字 -->
+<div class="loading-text">加载中</div>
+
+</body>
+</html>
