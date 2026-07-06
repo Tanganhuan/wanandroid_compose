@@ -12,9 +12,19 @@
 
 ## 闪屏页
 
+![splash](./images/splash.jpg)
+
 ## 欢迎页
 
+## 
 
+![Guide11](./images/Guide11.jpg)
+
+![Guide22](./images/Guide22.jpg)
+
+![Guide33](./images/Guide33.jpg)
+
+![Guide44](./images/Guide44.jpg)
 
 ## 首页
 
