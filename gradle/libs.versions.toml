@@ -42,7 +42,7 @@ crashreport = "4.1.9.3"
 xxpermissions = "28.2"
 accompanistPermissions = "0.37.3"
 devicecompat = "2.6"
-kotlinxCollectionsImmutable = "0.5.0"
+kotlinxCollectionsImmutable = "0.5.1"
 kotlinSerialization = "2.4.0"
 kotlinxSerializationCore = "1.11.0"
 leakcanaryAndroid = "2.14"
@@ -52,7 +52,7 @@ uiToolingPreview = "1.11.2"
 uiTooling = "1.11.2"
 colorpickerCompose = "1.2.0"
 webkit = "1.16.0"
-zoomimageViewCoil3 = "1.4.0"
+zoomimageViewCoil3 = "1.5.0"
 
 [libraries]
 
