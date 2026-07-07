@@ -2,6 +2,11 @@
 
 玩安卓App Compose版本
 
+| ![home_long_press](./images/home_long_press.jpg) | ![home_light](./images/home_light.jpg) | ![home_light_action_bar_theme](./images/home_light_action_bar_theme.jpg) |
+| ------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------ |
+
+
+
 # 前言
 
 用于学习了解 Compose UI 开发，欢迎提 [Issues](https://github.com/Tanganhuan/wanandroid_compose/issues)
